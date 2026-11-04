@@ -112,10 +112,10 @@
         <p class="lede" data-w="40">Tools I build to make food safety faster, traceable and audit-ready, using Python and React.</p>
       </div>
       <article class="proj rv">
-        <a class="proj-shot" href="https://claude.ai/artifact/CeS4KWR9viw947xyJHqdvg" target="_blank" rel="noopener noreferrer" aria-label="Open the Warehouse Traceability App showcase">
+        <div class="proj-shot">
           <img src="assets/project-warehouse.webp" width="1200" height="675" loading="lazy" decoding="async" alt="Showcase of the Warehouse Traceability App: a lot traced from receiving to flights with a balanced recall worksheet">
           <span class="proj-no">01</span>
-        </a>
+        </div>
         <div class="proj-body">
           <span class="tag">Food Safety Tool</span>
           <h3>Warehouse Traceability App</h3>
@@ -132,15 +132,13 @@
             <li>AI assistant traces lots; a person confirms every change</li>
           </ul>
           <div class="chips sm"><span>React</span><span>TypeScript</span><span>Tailwind CSS</span><span>Cloudflare Workers</span><span>Durable Objects</span><span>Google Sheets</span><span>Apps Script</span><span>Claude API</span></div>
-          <a class="btn" href="https://claude.ai/artifact/CeS4KWR9viw947xyJHqdvg" target="_blank" rel="noopener noreferrer">View showcase
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
         </div>
       </article>
       <article class="proj alt rv">
-        <a class="proj-shot" href="https://claude.ai/artifact/NP738TfkPeRDFBiVyqfYe8" target="_blank" rel="noopener noreferrer" aria-label="Open the Chemical Cage Inventory showcase">
+        <div class="proj-shot">
           <img src="assets/project-chemical.webp" width="1200" height="675" loading="lazy" decoding="async" alt="Showcase of the Chemical Cage Inventory app: a phone screen for taking out a chemical with PIN, lot and quantity">
           <span class="proj-no">02</span>
-        </a>
+        </div>
         <div class="proj-body">
           <span class="tag">Food Safety Tool</span>
           <h3>Chemical Cage Inventory</h3>
@@ -157,15 +155,13 @@
             <li>Wrong PIN blocks access, photographs the person and alerts the supervisor</li>
           </ul>
           <div class="chips sm"><span>Google Apps Script</span><span>Google Sheets</span><span>Gmail API</span><span>Google Drive</span><span>HTML / CSS / JS</span><span>QR codes</span></div>
-          <a class="btn" href="https://claude.ai/artifact/NP738TfkPeRDFBiVyqfYe8" target="_blank" rel="noopener noreferrer">View showcase
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
         </div>
       </article>
       <article class="proj rv">
-        <a class="proj-shot" href="https://claude.ai/artifact/PC9amPB75U5xZHnEHU5JyV" target="_blank" rel="noopener noreferrer" aria-label="Open the Dispatch Temperature Log showcase">
+        <div class="proj-shot">
           <img src="assets/project-dispatch.webp" width="1200" height="675" loading="lazy" decoding="async" alt="Showcase of the Dispatch Temperature Log: an admin dashboard tracking logged flights, temperatures and a missed-flight alert">
           <span class="proj-no">03</span>
-        </a>
+        </div>
         <div class="proj-body">
           <span class="tag">Food Safety Tool</span>
           <h3>Dispatch Temperature Log</h3>
@@ -182,8 +178,29 @@
             <li>Supervisor and QA e-signatures on a PDF report, auto-sent if unverified</li>
           </ul>
           <div class="chips sm"><span>Google Apps Script</span><span>Google Sheets &amp; Drive</span><span>Cloudflare Pages</span><span>Cloudflare Workers</span><span>HTML / CSS / JS</span><span>SheetJS (Excel)</span></div>
-          <a class="btn" href="https://claude.ai/artifact/PC9amPB75U5xZHnEHU5JyV" target="_blank" rel="noopener noreferrer">View showcase
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+        </div>
+      </article>
+      <article class="proj alt rv">
+        <div class="proj-shot">
+          <img src="assets/project-inspection.webp" width="1200" height="675" loading="lazy" decoding="async" alt="Group overview dashboard of the 303-Point Inspection Platform: compliance 94.2 percent, inspections, critical findings and open corrective actions">
+          <span class="proj-no">04</span>
+        </div>
+        <div class="proj-body">
+          <span class="tag">Health &amp; Safety Platform</span>
+          <h3>303-Point Inspection Platform</h3>
+          <p class="proj-lede">Health and safety inspection across airline catering units: 303 points, walked on a phone, closed on the record.</p>
+          <dl class="ps">
+            <div><dt>Problem</dt><dd>A 303-point checklist is a long form, findings need an owner and proof of closure for auditors, and monthly reporting across units was compiled by hand.</dd></div>
+            <div><dt>Solution</dt><dd>Every point opens at satisfactory and the inspector records only exceptions, with a rating, note and photo. Findings become corrective actions with an owner, due date and priority, and monthly compliance reporting arrives without anyone compiling it.</dd></div>
+          </dl>
+          <ul class="feat-list">
+            <li>303 checklist points in 16 sections and 36 subsections, shaped per unit</li>
+            <li>Sign-off counts the points nobody opened, so unchecked items can't pass quietly</li>
+            <li>Corrective actions with owner, due date and priority; closing requires a note</li>
+            <li>Compliance ranked between units, with recurring findings detected across months</li>
+            <li>Photos shrunk in the browser from 5 MB to about 300 KB before upload</li>
+          </ul>
+          <div class="chips sm"><span>React 18 + Vite</span><span>Hono</span><span>Cloudflare Workers</span><span>Cloudflare D1</span><span>Google Drive API</span><span>Brevo</span><span>GitHub Actions</span><span>235 tests</span></div>
         </div>
       </article>
     </div>
